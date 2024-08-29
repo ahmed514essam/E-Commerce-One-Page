@@ -1,0 +1,268 @@
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    height: 60px;
+    border-bottom: .7px solid rgb(201, 201, 201);
+    cursor: pointer;
+}
+.linksLarge ul {
+display:flex ;
+flex-direction: row;
+gap: 23px;
+padding-top: 10px;
+
+}
+.linksLarge ul li:hover {
+    color: orange;
+}
+.linksLarge ul li {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(125, 125, 125);
+   
+}
+.imges img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border: .8px solid rgb(123, 45, 9);
+    position: relative;
+}
+.liftside , .rightnavside{
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 100%;
+}
+.rightnavside h1 {
+    font-size: 2em;
+}
+nav .fa-solid {
+    font-size: 1.4em;
+    color: #797575;
+}
+.secMain {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+.img , .deTails {
+    width: 40%;
+}
+.otherimges 
+{
+    display: flex;
+    flex-direction: row;
+}
+.oneimg img {
+    object-fit: cover;
+    width: 100%;
+
+}
+.two img {
+    object-fit: cover;
+    width: 100%;
+}
+.three img {
+    object-fit: cover;
+    width: 100%;
+}
+.four img {
+    object-fit: cover;
+    width: 100%;
+}
+.bigselfimge img {
+    object-fit: cover;
+    width: 100%;
+}
+.bigselfimge {
+    width: 450px;
+    margin: auto;
+}
+.otherimges {
+ width: 460px;
+ margin: auto;
+    gap: 20px;
+    padding-top: 50px;
+}
+.otherimges img {
+    width: 100px;
+}
+.secMain img {
+    border-radius: 12px;
+}
+.deTails {
+
+}
+.deTails h1 {
+    font-weight: 700;
+
+}
+.deTails .fp {
+color: rgb(106, 106, 106);
+font-weight: 600;
+}
+.deTails .sep {
+color: rgb(106, 106, 106);
+}
+.bbb h2 {
+font-weight: 700;
+padding-right: 20px;
+}
+.bbb {
+    display: flex;
+    flex-direction: row;
+}
+.bbb span {
+    background-color: black;
+    color: white;
+    padding: 8px 13px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.deTails .delp {
+    color: rgb(106, 106, 106);
+    padding-bottom: 30px;
+}
+.allBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.allBtns .amount {
+width: 50W;
+}
+.allBtns .addCart {
+    width: 50%;
+}
+.addCartBtn {
+    background-color: orange;
+    padding: 10px 60px;
+    border-radius: 12px;
+    border: 0;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.allBtns .fa-solid {
+    color: black;
+    padding-right: 7px;
+}
+.amount button {
+    font-weight: 700;
+    border: 0;
+    padding: 5px 20px;
+    font-size: 1.5em;
+ border-radius: 8px;  
+ color: orange; 
+}
+.amount span {
+    padding: 9px 15px ;
+    font-size: 1.2em;
+    background-color: #f3f3f3;
+}
+.amount {
+    background-color: #f3f3f3;
+    box-sizing: 12px;
+}
+.allBtns {
+    margin-top: 40px;
+}
+.allBtns button:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+.ifImptyCart {
+    font-size: 1em;
+    padding: 5px;
+    color: rgb(144, 144, 144);
+}
+.cartName {
+    padding-left: 7px;
+    padding-top: 7px;
+    font-size: 1.2em;
+}
+.mList {
+    width: 200px;
+     
+}
+.contentCart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    line-height: 12px;
+}
+.imgCart img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.imgCart {
+    width: 95%;
+    margin: auto;
+    
+    
+}
+.detaolsCart {
+    
+}
+.dropdown-menu {
+    width: 100%;
+}
+.detaolsCart p {
+    width: 100%;
+}
+.kl {
+padding-top: 6px;
+color: rgb(106, 106, 106);
+
+}
+.amou {
+    color: rgb(106, 106, 106);
+}
+.fa-regular {
+    color: red;
+}
+.checkbtn {
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 8px;
+    width: 98%;
+    margin: auto;
+    margin-top: 5px;
+    background-color: rgb(123, 45, 9);
+    color: white;
+}
+.red {
+    background-color: white;
+    border: 0;
+    
+}
+.kls {
+    color: rgb(106, 106, 106);
+    text-align: center;
+}
+.selected {
+    border: 2px solid rgb(57, 96, 187);
+    opacity: 80%; 
+    border-radius: 15px;
+    transform: scale(1.1);
+}
